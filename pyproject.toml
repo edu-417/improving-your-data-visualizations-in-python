@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "improving your data visualizations in python"
+version = "0.1.0"
+description = "Improving your Data Visualizations in Python (Datacamp)"
+authors = ["Eduardo Melendez <edgame127@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+seaborn = "^0.12.2"
+pyqt6 = "^6.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
